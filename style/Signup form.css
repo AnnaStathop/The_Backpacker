@@ -1,0 +1,104 @@
+body {
+  height: 100px;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-weight: bold;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 45px;
+  background: white;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px;
+}
+
+.login h1 {
+  margin-top: 3px;
+
+  padding: 0;
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.login .inputBox input {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0 5px 15px;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  outline: none;
+  float: left;
+  text-indent: 40px;
+}
+
+.imageMap {
+  position: absolute;
+  height: 98%;
+  border: none;
+  width: 99.4%;
+  filter: blur(10px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #d3d3d3;
+  font-weight: bold;
+  box-shadow: 0 5px 15px;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 30px;
+  margin-top: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.id {
+  margin-top: 8px;
+  margin-left: 13.5px;
+  width: 20px;
+  position: absolute;
+}
+
+.mail {
+  margin-top: 83px;
+  margin-left: -74%;
+  width: 20px;
+  position: absolute;
+}
+
+.pass {
+  margin-top: 160px;
+  margin-left: -74%;
+  width: 20px;
+  position: absolute;
+}
+
+div.index a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 45px;
+  text-decoration: none;
+  opacity: 1px;
+}

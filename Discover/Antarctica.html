@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+      Antarctica
+  </title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Zilla+Slab:ital,wght@1,300;1,400&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="https://kit.fontawesome.com/5f629d8e07.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="../style/cssDiscover.css">
+  </head>
+  
+<body>
+<div class="slideshow-container">
+<div class="mySlides fade">
+
+    <img src="../images/ant1.png" class="picture1">
+
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="../images/ant2.png"class="picture2">
+
+</div>
+</div>
+
+  
+  
+
+  
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+</div>
+
+<div class="Navigation-Bar">
+  <a1>The Backpacker</a1>	
+  <img src="../images/bic.png" class="Icon">
+<nav>
+<ul>
+     
+<li> <a href="../homepage.html">HOME </a> </li>
+  
+<li> <a href="Discover.html">DISCOVER 
+<i class="fas fa-angle-down"></i></a>
+
+
+<ul class="Dddestinations">
+
+    <li><a href="Africa.html">	Africa</a>
+    <li><a href="">	Antarctica</a>
+    <li><a href="Asia.html">	Asia</a>
+    <li><a href="ci.html">	Carribean Islands</a>
+    <li><a href="centralsouthamerica.html">	Central/South America</a>
+    <li><a href="Destinationseurope.html">	Europe</a>
+    <li><a href="usa.html">	North America</a>
+    <li><a href="Pacific.html">	Pacific</a>
+</ul></li>		
+</li>
+
+
+
+<li> <a href="../contactus.html">CONTACT US </a> </li>	
+
+
+
+<li> <a href="../Login.php">ACCOUNT
+<i class="fas fa-angle-down"></i></a>
+
+
+
+<ul class="dropdown">
+  <li><a href="../Login.php">Log-In</a></li>
+  <li><a href="../Signup.php">Sign-Up! </a></li>
+</ul>
+</li>
+
+</ul>
+</nav>
+</div>
+<div class="container">
+<div id="pics"> 
+<img src="../images/ap.jpg" class="pic one">
+<img src="../images/lc.jpeg" class="pic two">
+<img src="../images/pl.jpg" class="pic three">
+</div>
+<div class ="Destination" style ="color:rgb(81, 174, 190) ">Antarctica-The Top 3</div>
+
+
+<div class="firstDestination">Antarctic Peninsula</div>
+<div class="text0">This is the northernmost part of Antarctica and is home to a large array of polar wildlife. It comprises iceberg strewn waterways along with narrow passages which are frequented by expedition cruises with landings made on natural harbours and outlying islands of the Antarctic Peninsula. Tourists visit the peninsula for the breathtaking scenery with a combination of expansive skies, towering glaciers. Apart from being a visual treat to the eyes, the place is also popular for penguin rookeries along with cormorant colonies. The migration season offers varied opportunities to spot Minke, humpback and killer whales at closer proximity.</div>
+ <div class="secondDestination">Lemaire Channel</div>
+ <div class="text1">A trip to Antarctica is incomplete without cruising along the stunning Lemaire Channel. Glaciers, icebergs and sheer cliffs dominate the area which lies above the water. With these wonderful creations lying above, humpback whales and behemoths lie below. While on your expedition to this gorgeous place, keep an eye out for orcas as well. The channel is completely precarious with being 1600m narrow and having plenty of loose icebergs. A heaven for the photographers, the scenery offers a breathtaking mirror view which is almost a dream to the photographers.</div>
+ <div class="thirdDestination">Port Lockroy </div>
+ <div class="text2">A natural harbour located on the north-western shore of Wiencke island is one of the most popular places to visit. The tourist spot makes way for being one of the most popular tourist destinations for a large array of cruise-ship passengers in Antarctica. This is a natural harbour that was originally used for whaling and then in the form of a military base during the time of the Second World War. This was soon followed by the place being used as a research station. The port is now a historic site consisting of post office and museum with being a popular halt point for travellers exploring Antarctica. Half of Wiencke Island is now closed for the tourists as only penguins are allowed to thrive.
+ </div>
+ 
+ <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+}
+</script>
+</body>
+
+
+	

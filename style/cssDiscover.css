@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Slideshow */
+.picture1 {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.picture2 {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.slideshow-container {
+  position: relative;
+  padding-top: 3.4%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 14%;
+  padding: 16px;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* title */
+.Destination {
+  position: absolute;
+  margin-top: 33%;
+  left: 300px;
+  font-size: 60px;
+  font-family: "Patua One", cursive;
+  color: #8b0000;
+}
+
+/* title of destinations and text */
+.firstDestination {
+  position: absolute;
+  margin-top: 40%;
+  left: 300px;
+  font-size: 25px;
+  font-family: "Sarabun", sans-serif;
+}
+
+.text0 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 42.5%;
+  text-align: initial;
+  font-size: 20px;
+  padding-left: 15.5%;
+  padding-right: 20%;
+}
+
+.secondDestination {
+  position: absolute;
+  margin-top: 52%;
+  padding-left: 11.5%;
+  font-size: 25px;
+  font-family: "Sarabun", sans-serif;
+}
+
+.text1 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 55%;
+  text-align: initial;
+  font-size: 20px;
+  padding-left: 11.5%;
+  padding-right: 20%;
+}
+
+.thirdDestination {
+  position: absolute;
+  margin-top: 63%;
+  left: 300px;
+  font-size: 25px;
+  font-family: "Sarabun", sans-serif;
+}
+
+.text2 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 66%;
+  text-align: initial;
+  font-size: 20px;
+  padding-left: 15.5%;
+  padding-right: 20%;
+}
+
+/* photos of destinations */
+.one {
+  position: absolute;
+  margin-top: 750px;
+  padding-left: 0px;
+  margin-left: 2%;
+  width: 230px;
+  min-height: 200px;
+  box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.two {
+  position: absolute;
+  margin-top: 970px;
+  margin-left: 80%;
+  width: 230px;
+  min-height: 200px;
+  box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.three {
+  position: absolute;
+  margin-top: 1190px;
+  margin-left: 2%;
+  width: 230px;
+  min-height: 200px;
+  box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+/* logo */
+a1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 35px;
+  opacity: 100;
+  color: black;
+}
+
+/* Navigation-Bar */
+.Icon {
+  width: 50px;
+  height: 50px;
+}
+.Navigation-Bar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  top: 0;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+nav {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 14px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: white;
+}
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  font-weight: lighter;
+}
+
+li a {
+  position: relative;
+  display: block;
+  padding: 0px 10px;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.Dddestinations {
+  display: none;
+  left: 40%;
+  text-align: left;
+  /* margin-left: 0; */
+  transform: translate(-40%, 0);
+}
+
+li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 160px;
+  padding: 10px;
+}
+
+ul ul:hover ul {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  left: 45%;
+  right: auto;
+  text-align: center;
+  transform: translate(-40%, 0);
+}
+ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+ul li.dropdown li {
+  display: block;
+}
