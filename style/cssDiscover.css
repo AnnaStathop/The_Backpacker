@@ -2,26 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Slideshow */
 .picture1 {
   position: absolute;
-  height: 600px;
-  width: 100%;
+  height: 80vh;
+  width: 100vw;
   background-position: cover;
   background-repeat: no-repeat;
 }
 .picture2 {
   position: absolute;
-  height: 600px;
-  width: 100%;
+  height: 80vh;
+  width: 100vw;
   background-position: cover;
   background-repeat: no-repeat;
 }
 .slideshow-container {
   position: relative;
-  padding-top: 3.4%;
+  padding-top: 3vh;
 }
 
 /* Hide the images by default */
@@ -78,7 +79,7 @@
 /* title */
 .Destination {
   position: absolute;
-  margin-top: 33%;
+  margin-top: 85vh;
   left: 300px;
   font-size: 60px;
   font-family: "Patua One", cursive;
@@ -88,7 +89,7 @@
 /* title of destinations and text */
 .firstDestination {
   position: absolute;
-  margin-top: 40%;
+  margin-top: 100vh;
   left: 300px;
   font-size: 25px;
   font-family: "Sarabun", sans-serif;
@@ -97,16 +98,16 @@
 .text0 {
   position: absolute;
   font-size: 25px;
-  margin-top: 42.5%;
+  margin-top: 105vh;
   text-align: initial;
   font-size: 20px;
-  padding-left: 15.5%;
-  padding-right: 20%;
+  padding-left: 18vw;
+  padding-right: 20vw;
 }
 
 .secondDestination {
   position: absolute;
-  margin-top: 52%;
+  margin-top: 132vh;
   padding-left: 11.5%;
   font-size: 25px;
   font-family: "Sarabun", sans-serif;
@@ -115,16 +116,16 @@
 .text1 {
   position: absolute;
   font-size: 25px;
-  margin-top: 55%;
+  margin-top: 138vh;
   text-align: initial;
   font-size: 20px;
-  padding-left: 11.5%;
-  padding-right: 20%;
+  padding-left: 10vw;
+  padding-right: 20vw;
 }
 
 .thirdDestination {
   position: absolute;
-  margin-top: 63%;
+  margin-top: 160vh;
   left: 300px;
   font-size: 25px;
   font-family: "Sarabun", sans-serif;
@@ -133,39 +134,38 @@
 .text2 {
   position: absolute;
   font-size: 25px;
-  margin-top: 66%;
+  margin-top: 167vh;
   text-align: initial;
   font-size: 20px;
-  padding-left: 15.5%;
-  padding-right: 20%;
+  padding-left: 18vw;
+  padding-right: 20vw;
 }
 
 /* photos of destinations */
 .one {
   position: absolute;
-  margin-top: 750px;
-  padding-left: 0px;
-  margin-left: 2%;
-  width: 230px;
-  min-height: 200px;
+  margin-top: 100vh;
+  margin-left: 2vw;
+  width: 15vw;
+  height: 23vh;
   box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 .two {
   position: absolute;
-  margin-top: 970px;
+  margin-top: 130vh;
   margin-left: 80%;
-  width: 230px;
-  min-height: 200px;
+  width: 15vw;
+  height: 23vh;
   box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 .three {
   position: absolute;
-  margin-top: 1190px;
-  margin-left: 2%;
-  width: 230px;
-  min-height: 200px;
+  margin-top: 160vh;
+  margin-left: 2vw;
+  width: 15vw;
+  height: 23vh;
   box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }

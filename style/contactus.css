@@ -51,6 +51,7 @@ a3 {
   width: 100%;
   color: black;
   background-color: white;
+  z-index:1;
 }
 nav {
   flex: 1;

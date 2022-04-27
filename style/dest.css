@@ -92,11 +92,11 @@ ul li.dropdown li {
 
 
 .Icon {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
-  margin-left: 12.25%;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-top: 0vh;
+  margin-left: 1vw;
 }
 .show-modal {
   font-family: sans-serif;
@@ -122,27 +122,27 @@ ul li.dropdown li {
   background: none;
 }
 .row {
-  margin-top: 10%;
+  margin-top: 20vh;
   margin-left: 4%;
 }
 
 .gallery {
   float: left;
-  padding: 10px;
+  padding: 1vw;
   background: white;
   border: none;
   border-radius: 5px;
   box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.25);
-  width: 21%;
+  width: 21vw;
   text-align: center;
-  margin-left: 45px;
-  margin-top: 2%;
+  margin-left: 1.5vw;
+  margin-top: 3vh;
 }
 
 
 .desc {
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   margin-top: 5px;
   color: #4682b4;
 }
