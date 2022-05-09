@@ -78,7 +78,7 @@ header {
       rgba(36, 35, 35, 0.575),
       rgba(44, 44, 44, 0.418)
     ),
-    url(Images/kamila.jpg);
+    url(images/kamila.jpg);
   background-size: cover;
   color: #fff;
 }
